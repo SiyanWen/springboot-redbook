@@ -1,3 +1,23 @@
-# springboot-redbook
+In this branch,
+1. add new dependencies in pom.
+```xml
+<dependency>
+<groupId>org.springframework.boot</groupId>
+<artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
+```
 
-we need to learn how to write a springboot CURD API step by step. I have add the code to different branch. branch names starts from 01_, 02_, 03_, we can follow this sequence to learn step by step.
+## Validation
+add annotation for fields
+* com.chuwa.redbook.payload.PostDto
+* com.chuwa.redbook.payload.CommentDto
+add @Valid for RequestBody in controller
+* com.chuwa.redbook.controller.PostController
+* com.chuwa.redbook.controller.CommentController
+
+
+## acutator
+
+
+## swagger
+
